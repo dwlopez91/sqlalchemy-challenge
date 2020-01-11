@@ -86,7 +86,6 @@ def tobs():
     end_date = '2017-08-23'
     new_date = dt.datetime.strptime(end_date, '%Y-%m-%d')
     
-    # Perform a query to retrieve the data and precipitation scores
     last_date_year = new_date - dt.timedelta(days=365)
     start_date = last_date_year.strftime("%Y-%m-%d")
 
@@ -105,7 +104,6 @@ def start():
     end_date = '2017-08-23'
     new_date = dt.datetime.strptime(end_date, '%Y-%m-%d')
     
-    # Perform a query to retrieve the data and precipitation scores
     last_date_year = new_date - dt.timedelta(days=365)
     start_date = last_date_year.strftime("%Y-%m-%d")
 
@@ -126,7 +124,6 @@ def startend():
     end_date = '2017-08-23'
     new_date = dt.datetime.strptime(end_date, '%Y-%m-%d')
     
-    # Perform a query to retrieve the data and precipitation scores
     last_date_year = new_date - dt.timedelta(days=365)
     start_date = last_date_year.strftime("%Y-%m-%d")
 
